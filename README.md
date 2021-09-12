@@ -1,7 +1,7 @@
 # RQ Apprepend
 Batch append/prepend text to the current output filename of all `QUEUED` render items.
 
-Find out more about it here: [AE Script: Batch Rename Rneder Queue Item Filenames](https://gfxhacks.com/ae-script-batch-rename-render-queue-item-filenames/).
+Find out more about it here: [AE Script: Batch Rename Render Queue Item Filenames](https://gfxhacks.com/ae-script-batch-rename-render-queue-item-filenames/).
 
 Open After Effects, then navigate to `File > Scripts > Run Script File...` and choose `RQ_Apprepend.jsx`. The RQ Apprepend panel should appear.
 
