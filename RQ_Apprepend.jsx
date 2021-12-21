@@ -117,7 +117,12 @@
           var fileName = fullFileName.replace(/\.[^\.]+(?=\/$|$)/, '');
           var fileExt = fullFileName.match(/\.[^\.]+(?=\/$|$)/)[0];
           var filePath = om1.getSettings(GetSettingsFormat.STRING)["Output File Info"]["Base Path"];
-          om1.file = new File(filePath + '/' + prependStr + fileName + appendStr);
+          var outputFileInfo = {
+            "Output File Info": {
+              "Full Flat Path": filePath + "/" + prependStr + fileName + appendStr + fileExt,
+            }
+          }
+          om1.setSettings(outputFileInfo)
         }
       }
       if (rqQueuedItemsNum == 0) alert('No QUEUED items in render queue');
