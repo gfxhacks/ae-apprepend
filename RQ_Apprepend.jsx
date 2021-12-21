@@ -11,7 +11,7 @@
     var apprependSetupData = new Object();
 
     apprependSetupData.scriptName = "RQ Apprepend";
-    apprependSetupData.version = "1.0.0";
+    apprependSetupData.version = "1.0.1";
     apprependSetupData.sourceUrl = "https://gfxhacks.com";
     apprependSetupData.scriptDesc = "Batch append/prepend text to the current output filename of all QUEUED render items.";
 
