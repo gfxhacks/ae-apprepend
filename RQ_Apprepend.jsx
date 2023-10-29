@@ -1,4 +1,14 @@
 /*
+  Hi, there!
+
+  The contact form on https://gfxhacks.com/ does not work and
+  I could not find an email address to send you a message.
+
+  Would you be interested in selling https://gfxhacks.com/?
+  If yes, please contact me at jacob@aejuice.com
+
+  Thank you!
+
   Title: RQ_Apprepend.jsx
   Version: 1.0.0
   Desc: Batch append/prepend text to the current output filename of all QUEUED render items.
